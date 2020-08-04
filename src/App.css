@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+body {
+  height: 100vh;
+  background-image: url(http://wallpapercave.com/wp/wp1830198.jpg);
+  width: 100vw;
+  background-size: cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  height: 20vh;
+background-color: red;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.header-img {
+  width: 30vw;
+  height: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header-img2 {
+  width: 15vw;
+  height: 100%;
+  float: right;
+}
+.player-image {
+  height: 392px;
+  width: 900px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin: auto;
+
+}
+.index{
+  display: flex;
+  justify-content: space-around;
+}
+
+.index-counter {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+  font-size: x-large;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.name {
+font-size: 30px;
+display: flex;
+justify-content: center;
+margin-top: 25px;
+color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.college {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
 }
+
+.add-container {
+  display: flex;
+  justify-content: center;
+  }
+  
+  .addButton {
+    background-color: red;
+  }
+
+  .delete-btn {
+    display: flex;
+    justify-content: flex-end;
+    border-color: red;
+    align-items: flex-start;
+    color: black;
+    background-color: red;
+
+  }
+  .search {
+    display: flex;
+    align-items: center;
+  }

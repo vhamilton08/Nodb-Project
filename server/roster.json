@@ -1,0 +1,93 @@
+[
+    {
+        "id": 1,
+        "name": "Kawhi Leonard",
+        "college": "SDSU",
+        "image": "https://miro.medium.com/max/2592/0*EKpkg9F3zgcM8H_y.jpg"
+        
+    },
+    {
+        "id": 2,
+        "name": "Paul George",
+        "college": "Fresno State",
+        "image": "https://clutchpoints.com/wp-content/uploads/2019/07/pg-1.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Lou Williams",
+        "college": "n/a",
+        "image": "https://i.pinimg.com/originals/cf/5f/05/cf5f05938225da85541e3eca01d4cffe.png"
+    },
+    {
+        "id": 4,
+        "name": "Montrezl Harrell",
+        "college": "Louisville",
+        "image": "https://imagesvc.timeincapp.com/v3/fan/image?url=https://thunderousintentions.com/wp-content/uploads/getty-images/2018/07/940797964.jpeg&c=sc&w=3200&h=2133"
+    },
+    {
+        "id": 5,
+        "name": "Patrick Beverley",
+        "college": "Arkansas",
+        "image": "https://www.nba.com/resources/static/team/v2/clippers/img/190415_TZ_Game_Clean-5-tall.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jamychal Green",
+        "college": "Alabama",
+        "image": "https://www.nba.com/clippers/sites/clippers/files/1200-green_best_photos_1819_1_of_12.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Landry Shamet",
+        "college": "Witchita State",
+        "image": "https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters:format(jpg)/https://specials-images.forbesimg.com/imageserve/1208870467/0x0.jpg?cropX1=0&cropX2=1965&cropY1=72&cropY2=1177"
+    },
+    {
+        "id": 8,
+        "name": "Marcus Morris",
+        "college": "Kansas",
+        "image": "https://clutchpoints.com/wp-content/uploads/2020/02/Marcus-Morris-won_t-make-LA-debut-Saturday-vs.-Timberwolves.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Reggie Jackson",
+        "college": "Boston College",
+        "image": "https://cdn.theathletic.com/app/uploads/2020/02/24132341/58173967-5417-44A7-99A7-EB70662ECB2F-1024x683.jpeg"
+    },
+    {
+        "id": 10,
+        "name": "Joakim Noah",
+        "college": "Florida",
+        "image": "https://clutchpoints.com/wp-content/uploads/2020/03/Clippers-How-Joakim-Noah-can-help-LA-in-their-NBA-title-quest-1000x600.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Ivica Zubac",
+        "college": "Croatia",
+        "image": "https://statics.sportskeeda.com/editor/2020/03/1ca17-15835714257282-800.jpg"
+    },
+    {
+        "id": 12,
+        "name": "Patrick Patterson",
+        "college": "Kentucky",
+        "image": "https://cdn.vox-cdn.com/thumbor/QaPDUWUF-A7H1CdbZccIu7j6DAE=/0x0:5568x3712/1200x800/filters:focal(2339x1411:3229x2301)/cdn.vox-cdn.com/uploads/chorus_image/image/65441956/1177927296.jpg.0.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Amir Coffey",
+        "college": "Minnesota",
+        "image": "https://www.proballers.com/media/cache/torso_player/ul/player/57992-3-5daf71b7a2b320191010-clippers-v-nuggets-133.JPG"
+    },
+    {
+        "id": 14,
+        "name": "Rodney McGruder",
+        "college": "Kansas State",
+        "image": "https://ak-static.cms.nba.com/wp-content/uploads/sites/19/2020/07/McGruder-LAC-1024x683.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Johnathon Motley",
+        "college": "Baylor",
+        "image": "http://pics.forecaster.ca/nba-action/4058.jpg"
+    }
+]

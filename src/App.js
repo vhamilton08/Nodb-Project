@@ -1,26 +1,55 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import "./reset.css";
 import './App.css';
+import axios from "axios"
+import Header from "./components/Header"
+import Players from './components/Players'
+import Input from "./components/Input"
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      roster: []
+    }
+  }
+
+
+  componentDidMount() {
+    this.getRoster()
+  }
+  getRoster = () => {
+    axios.get("/api/roster")
+      .then(res => {
+        this.setState({
+          roster: res.data
+        })
+      })
+      .catch( err => console.log(err))
+  }
+
+  addPlayer = (name, college, image) => {
+    axios.post("/api/roster", {name, college, image})
+    .then(res => {
+      this.setState({
+        roster: res.data
+      })
+    })
+    .catch(err => console.log(err))
+  }
+
+  
+  render(){
+    return (
+      <div>
+        <Header/> 
+        <Players/>
+        <Input addPlayer = {this.addPlayer}/>
+
+      </div>
+    )
+  }
 }
+
 
 export default App;
